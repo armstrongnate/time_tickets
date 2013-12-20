@@ -1,0 +1,6 @@
+%h1 Hello World
+
+- @time_tickets.each do |time_ticket|
+  = time_ticket.started_at.strftime("%m/%d/%Y")
+  = time_ticket.ended_at.strftime("%m/%d/%Y")
+  %br

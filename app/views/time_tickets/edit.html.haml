@@ -1,0 +1,6 @@
+%h1 Edit Time Ticket
+= form_for @time_ticket do |f|
+  = f.text_field :started_at
+  = f.text_field :ended_at
+
+  = f.submit 'Submit'
